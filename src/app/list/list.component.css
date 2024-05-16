@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(to bottom, #0b0a52, #04092e);
+    height: 90vh;
+}
+.list-container {
+    border: 3px groove #797979;
+    border-radius: 25px;
+    width: 300px;
+    margin: 20px auto;
+    background-color: #b0afaf;
+    text-align: center;
+    box-shadow: 0 14px 6px rgba(54, 54, 54, 0.1); /* Add a drop shadow effect */
+    padding: 15px; /* Add padding to create space around the container */
+   
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+li {
+    text-align: center;
+    margin: 5px 0;
+    background-color: rgb(225, 220, 220);
+}
+.button1 {
+    background-color: #19672b;
+    color: rgb(194, 247, 217);
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.button2 {
+    border-radius: 10px;
+    background-color: rgb(161, 37, 37);
+    color: white;
+}
+.custom-disabled {
+    color: rgb(195, 45, 45); /* Set the desired color for disabled elements */
+    background-color: rgb(53, 11, 11);
+}
+.checkbox-item {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items along the line, pushing the remove button to the end */
+    margin-bottom: 1px; /* Adjust the spacing between items */
+  }
+  
+  .checkbox-item button {
+    margin-left: 20px; /* Adjust the spacing between the item and the remove button */
+  }
+  .checkbox-item button:hover {
+    background-color: rgb(40, 28, 202); /* Change the background color when hovered over */
+    color: white; /* Change the text color when hovered over */
+  }
+  .checkbox-item span {
+    margin-left: 10px; /* Adjust the spacing between the checkbox and the item text */
+  }
+  .checkbox-item input[type="checkbox"] {
+    margin-left: 10px; /* Adjust the spacing between the checkbox and the item text */
+  }
